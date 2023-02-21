@@ -1,0 +1,17 @@
+.check-button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background: #598ef3;
+  color: #d3e6fe;
+  border: none;
+  margin-left: 0.25rem;
+}
+.input-field {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+.result-text {
+  color: #d3e6fe;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e293b;
+}
+.main-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+.flag-wrapper {
+  background-color: #475569;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.flag-image {
+  width: 250px;
+  height: auto;
+}
+.flag-image > img {
+  max-width: 100%;
+}
+
+.main-title {
+  color: #d3e6fe;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.getFlagButton {
+  background-color: #cbd5e1;
+  color: #598ef3;
+  padding: 0.5rem 1rem;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -13%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  box-shadow: -1px 1px 16px -1px rgba(37, 99, 235, 0.41);
+  -webkit-box-shadow: -1px 1px 16px -1px rgba(37, 99, 235, 0.41);
+  -moz-box-shadow: -1px 1px 16px -1px rgba(37, 99, 235, 0.41);
+}
